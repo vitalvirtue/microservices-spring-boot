@@ -1,4 +1,4 @@
-package dev.mcspring.student.dao;
+package dev.mcspring.student.repository;
 
 import dev.mcspring.student.model.Student;
 
