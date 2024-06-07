@@ -1,0 +1,16 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: schools
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/schools
+    username: postgres
+    password: 123456
+  jpa:
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: create
+    show-sql: true
